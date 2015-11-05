@@ -52,7 +52,7 @@ class ProductManager{
 		return  new DOMXPath($dom);
 	}
 
-	public function addValue($query,$attrObj){
+	public function addValue($query,$attrObj,$urlBase=''){
 		//optimizar esto hay mucho codigi repetido!
 		if($attrObj == "name") {
 			$delimiter = "";
@@ -75,6 +75,7 @@ class ProductManager{
 		}else if ($attrObj == "images"){
 			$delimiter = ',';
 			$images =  $this->getImages($query,$delimiter);
+			if( !empty($urlBase) )$images = $this->addUrlBase($images,$urlBase);
 			$this->images = $images;
 		}
 	}
@@ -94,6 +95,10 @@ class ProductManager{
 		return  utf8_encode($specification);
 
 
+	}
+
+	private function addUrlBase($items,$url){
+		return array_map(function($item) use ($url){ return $url.$item; },$items);
 	}
 
 	private function getImages($query,$delimiter=","){
@@ -118,7 +123,6 @@ class ProductManager{
 	      			$content .= $node->nodeValue.$delimiter;
 	    		}
 	  		}
-			$conten='elemno no encontrado';
 	  	}
 	  	return $content;
 	}

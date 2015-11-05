@@ -43,9 +43,9 @@ class ProsessFile {
         foreach($products as $product){
             for($i=0; $i<count($product['images']);$i++){
                 $imgName = $pathImages.$i.$product['id'].'.jpg';
-                $url = 'http:'.$product['images'][$i];
-                echo $url;
+                $url = $product['images'][$i];
                 HelperFileFormatting::downloadFile($url,$imgName);
+                echo "se descargo : $url <br>";
                 //$this->renderView('/productCombination/uploadFiles');
             }
         }

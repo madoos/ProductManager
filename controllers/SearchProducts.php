@@ -46,7 +46,7 @@ class SearchProducts {
             $product->addValue($queryPrice,'price');
             $product->addValue($queryDescription,'description');
             $product->addValue($querySpecifications,'specifications');
-            $product->addValue($queryImages,'images');
+            $product->addValue($queryImages,'images',$imgUrlBase);
             $product = get_object_vars($product);
             unset($product['xpath']);
             $this->addProduct($product);

@@ -27,14 +27,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductManager.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/ProductManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10403917" vertical-offset="0" max-vertical-offset="817">
-              <caret line="161" column="2" selection-start-line="161" selection-start-column="2" selection-end-line="161" selection-end-column="2" />
+            <state vertical-scroll-proportion="-45.23077" vertical-offset="932" max-vertical-offset="2907">
+              <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProsessFile.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3989899" vertical-offset="1044" max-vertical-offset="1836">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelperFileFormatting.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="884">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
-                <element signature="n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchProducts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/SearchProducts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.26923" vertical-offset="195" max-vertical-offset="1020">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="n#index#0;n#SearchProducts#0;n#!!top" expanded="false" />
+                <element signature="n#saveProducts#0;n#SearchProducts#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configureProductSearch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/searchProducts/configureProductSearch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="663">
+              <caret line="15" column="82" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="82" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,12 +137,12 @@
         <option value="$PROJECT_DIR$/views/productCombination/uploadFiles.php" />
         <option value="$PROJECT_DIR$/views/productCombination/configCombination.php" />
         <option value="$PROJECT_DIR$/controllers/ProductCombination.php" />
-        <option value="$PROJECT_DIR$/controllers/ProsessFile.php" />
-        <option value="$PROJECT_DIR$/controllers/SearchProducts.php" />
         <option value="$PROJECT_DIR$/views/searchProducts/preVisualizationProduct.php" />
-        <option value="$PROJECT_DIR$/classes/ProductManager.php" />
         <option value="$PROJECT_DIR$/views/__baseLayout.php" />
         <option value="$PROJECT_DIR$/helpers/HelperFileFormatting.php" />
+        <option value="$PROJECT_DIR$/controllers/SearchProducts.php" />
+        <option value="$PROJECT_DIR$/classes/ProductManager.php" />
+        <option value="$PROJECT_DIR$/controllers/ProsessFile.php" />
       </list>
     </option>
   </component>
@@ -101,10 +151,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1923" />
-    <option name="height" value="1028" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1930" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -129,7 +179,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,17 +207,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="searchProducts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="S:/CLIENTES/www.kbike.es/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -223,7 +333,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1923" height="1028" extended-state="0" />
+    <frame x="-9" y="-9" width="1930" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -232,7 +342,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17217848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17207113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -292,7 +402,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/classes/ProductManager.php</url>
-          <line>125</line>
+          <line>129</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -325,7 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -333,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -360,9 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2839">
           <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
-          <folding>
-            <element signature="n#ProductManager#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -378,7 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="646">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,7 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -394,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,7 +511,6 @@
             <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
@@ -420,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -458,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="493">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +572,6 @@
             <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
@@ -484,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="493">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,7 +640,6 @@
             <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
@@ -555,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="306">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,9 +705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#ProductManager#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/searchProducts/configureProductSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ControllerCore.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
@@ -680,30 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SearchProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58384335" vertical-offset="203" max-vertical-offset="1020">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding>
-            <element signature="n#index#0;n#SearchProducts#0;n#!!top" expanded="false" />
-            <element signature="n#saveProducts#0;n#SearchProducts#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1836">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/searchProducts/preVisualizationProduct.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54100364" vertical-offset="0" max-vertical-offset="817">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41615668" vertical-offset="0" max-vertical-offset="817">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -719,25 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35373318" vertical-offset="0" max-vertical-offset="817">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5618115" vertical-offset="0" max-vertical-offset="817">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35373318" vertical-offset="0" max-vertical-offset="817">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,17 +798,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020807834" vertical-offset="0" max-vertical-offset="817">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/searchProducts/configureProductSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="663">
+          <caret line="15" column="82" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SearchProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.26923" vertical-offset="195" max-vertical-offset="1020">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="n#index#0;n#SearchProducts#0;n#!!top" expanded="false" />
+            <element signature="n#saveProducts#0;n#SearchProducts#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="884">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/ProductManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10403917" vertical-offset="0" max-vertical-offset="817">
-          <caret line="161" column="2" selection-start-line="161" selection-start-column="2" selection-end-line="161" selection-end-column="2" />
-          <folding>
-            <element signature="n#ProductManager#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-45.23077" vertical-offset="932" max-vertical-offset="2907">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3989899" vertical-offset="1044" max-vertical-offset="1836">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
