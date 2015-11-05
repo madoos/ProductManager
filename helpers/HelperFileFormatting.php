@@ -60,7 +60,7 @@ class HelperFileFormatting {
 /////////////////////GET FILES//////////////////
 
     public static function downloadFile($source,$destination){
-        $file = file_get_contents($source);
+        $file = file_get_contents( str_replace(" ","%20",$source) );
         file_put_contents($destination, $file);
         return $destination;
     }

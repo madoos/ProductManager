@@ -37,21 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProsessFile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProsessFile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3989899" vertical-offset="1044" max-vertical-offset="1836">
-              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+            <state vertical-scroll-proportion="-7.084746" vertical-offset="1044" max-vertical-offset="1836">
+              <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelperFileFormatting.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelperFileFormatting.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="884">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5769697" vertical-offset="0" max-vertical-offset="884">
+              <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
               <folding>
                 <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
                 <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
@@ -139,10 +139,10 @@
         <option value="$PROJECT_DIR$/controllers/ProductCombination.php" />
         <option value="$PROJECT_DIR$/views/searchProducts/preVisualizationProduct.php" />
         <option value="$PROJECT_DIR$/views/__baseLayout.php" />
-        <option value="$PROJECT_DIR$/helpers/HelperFileFormatting.php" />
         <option value="$PROJECT_DIR$/controllers/SearchProducts.php" />
         <option value="$PROJECT_DIR$/classes/ProductManager.php" />
         <option value="$PROJECT_DIR$/controllers/ProsessFile.php" />
+        <option value="$PROJECT_DIR$/helpers/HelperFileFormatting.php" />
       </list>
     </option>
   </component>
@@ -333,7 +333,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1930" height="1036" extended-state="6" />
+    <frame x="-9" y="-9" width="1930" height="1036" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -820,23 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="884">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-            <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/ProductManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-45.23077" vertical-offset="932" max-vertical-offset="2907">
@@ -847,9 +830,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3989899" vertical-offset="1044" max-vertical-offset="1836">
-          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        <state vertical-scroll-proportion="-7.084746" vertical-offset="1044" max-vertical-offset="1836">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5769697" vertical-offset="0" max-vertical-offset="884">
+          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding>
+            <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
