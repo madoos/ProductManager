@@ -62,7 +62,7 @@ class ProductManager{
 			$delimiter = "";
 			$price = $this->getContentHtml($query, $delimiter);
 			$price = trim($this->clearPrice($price));
-			$this->price = $price;
+			$this->price =  str_replace('.',',', str_replace(',','',$price) );
 		}else if($attrObj == "description"){
 			$delimiter = "";
 			$description = trim($this->getContentHtml($query, $delimiter));
