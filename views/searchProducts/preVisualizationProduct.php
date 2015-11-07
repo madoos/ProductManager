@@ -25,7 +25,7 @@ $_SESSION['action'] = 'saveProducts';
             <h1>IMAGENES</h1>
             <?php    var_dump($_SESSION['products'][1]) ?>
             <?php foreach( $_SESSION['products'][1]['images'] as $image): ?>
-                <img src="<?= 'http:'.$image ?>">
+                <img src="<?= $image ?>">
             <?php endforeach; ?>
         </div>
     </div>

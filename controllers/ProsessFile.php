@@ -24,6 +24,7 @@ class ProsessFile {
         $products =  HelperFileFormatting::objectsToArray( ProductModel::getProductsData('products') );
         switch ( $programOptions ) {
             case 1:
+                $pathZipFinale = FILES_PATH.'files.zip';
                 $pathProductCsv = CSV_PATH.'gesioProducts.csv';
                 $pathImgesCsv = CSV_PATH.'gesioAllImgProducts.csv';
                 $pathImages = IMAGES_PATH ;
@@ -32,6 +33,12 @@ class ProsessFile {
                 $this->createCsvImages($products,$pathImgesCsv,',');
                 $this->downloadsImages($products,$pathImages);
                 $this->generateBatches($pathImgesCsv,$numItems,$pathBatches);
+                HelperFileFormatting::zipEntireFolder('C:\wamp\www\ProductManager/files',$pathZipFinale);
+                HelperFileFormatting::sendClientFile($pathZipFinale,'zip');
+                HelperFileFormatting::deleteFillesFromDirectoryTree('C:\wamp\www\ProductManager/files');
+                // hay que hacer la vista se descargara el zip de los ficheros esto es de prossesFile contoler linea 33
+                //hay que solucionar el problema de limpeza del directorio despues del  envio de cabeceras
+
                 break;
             case 2:
                 //for other things we do not know!
@@ -45,8 +52,6 @@ class ProsessFile {
                 $imgName = $pathImages.$i.$product['id'].'.jpg';
                 $url = $product['images'][$i];
                 HelperFileFormatting::downloadFile($url,$imgName);
-                echo "se descargo : $url <br>";
-                //$this->renderView('/productCombination/uploadFiles');
             }
         }
     }

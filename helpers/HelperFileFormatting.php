@@ -49,6 +49,26 @@ class HelperFileFormatting {
         $zip->close();
     }
 
+
+    public static function zipEntireFolder($folderToZip,$zipName){
+    $rootPath = realpath($folderToZip);
+    $zip = new ZipArchive();
+    $zip->open( $zipName , ZipArchive::CREATE | ZipArchive::OVERWRITE );
+    $files = new RecursiveIteratorIterator(
+        new RecursiveDirectoryIterator($rootPath),
+        RecursiveIteratorIterator::LEAVES_ONLY
+    );
+    foreach ($files as $name => $file){
+        if (!$file->isDir()){
+            $filePath = $file->getRealPath();
+            $relativePath = substr($filePath, strlen($rootPath) + 1);
+            $zip->addFile($filePath, $relativePath);
+        }
+    }
+    $zip->close();
+}
+
+
 /////////////////////STRINGS/////////////////////
 
     public static function getBetween($source,$start,$end){
@@ -57,7 +77,7 @@ class HelperFileFormatting {
         return  $result;
     }
 
-/////////////////////GET FILES//////////////////
+/////////////////////FILES//////////////////
 
     public static function downloadFile($source,$destination){
         $file = file_get_contents( str_replace(" ","%20",$source) );
@@ -68,8 +88,9 @@ class HelperFileFormatting {
     public static function sendClientFile($filePath,$contentType){
         $fileName = basename($filePath);
         header("Content-Type: application/$contentType");
-        header("Content-Disposition: attachment; filename=$fileName");
+        header("Content-Transfer-Encoding: Binary");
         header("Content-Length: " . filesize($filePath));
+        header("Content-Disposition: attachment; filename=$fileName");
         readfile($filePath);
         exit();
     }
@@ -90,6 +111,23 @@ class HelperFileFormatting {
         return array_map(function($item){
             return get_object_vars($item);
         },$arObjects);
+    }
+
+    /////////////////DELETE//////////////////////////////
+
+    public static function deleteFillesFromDirectoryTree($folder){
+        $rootPath = realpath($folder);
+        $files = new RecursiveIteratorIterator(
+            new RecursiveDirectoryIterator($rootPath),
+            RecursiveIteratorIterator::LEAVES_ONLY
+        );
+        foreach ($files as $name => $file){
+            if (!$file->isDir()){
+                $filePath = $file->getRealPath();
+                //$relativePath = substr($filePath, strlen($rootPath) + 1);
+                unlink($filePath);
+            }
+        }
     }
 
 
