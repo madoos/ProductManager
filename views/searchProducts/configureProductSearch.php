@@ -13,7 +13,7 @@ $_SESSION['action'] = 'index';
                 <option value="3">Web normales</option>
             </select>
 
-            <p>url base de las imagenes NOrECO <input type="text" name="imgUrlBase"></p>
+            <p>url base de las imagenes<input type="text" name="imgUrlBase"></p>
 
             <p>Escriba las xpaht querys en los respectivos campos.</p>
 

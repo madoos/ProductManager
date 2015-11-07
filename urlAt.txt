@@ -1,1 +1,0 @@
-http://kbike.es/modules/azkgesioimport/update.php?type=product
