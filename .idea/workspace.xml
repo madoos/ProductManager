@@ -27,21 +27,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductManager.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/ProductManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="2907">
-              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-              <folding />
+            <state vertical-scroll-proportion="0.3085554" vertical-offset="1" max-vertical-offset="833">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding>
+                <element signature="n#__construct#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#createXpaht#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#encodeToUtf8#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#encodeToIso#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#addValue#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#addUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#getImages#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#getContentHtml#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#getContentFromElements#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#clearPrice#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#showInfo#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#setUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+                <element signature="n#getAhreftLinks#0;n#ProductManager#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProsessFile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProsessFile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7152875" vertical-offset="0" max-vertical-offset="1836">
-              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+            <state vertical-scroll-proportion="-6.1153846" vertical-offset="45" max-vertical-offset="1836">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -50,7 +64,7 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
@@ -60,14 +74,20 @@
       <file leaf-file-name="HelperFileFormatting.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.961538" vertical-offset="794" max-vertical-offset="1547">
-              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+            <state vertical-scroll-proportion="-24.76923" vertical-offset="223" max-vertical-offset="1037">
+              <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
               <folding>
                 <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
                 <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
                 <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
                 <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#zipEntireFolder#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#encodeToUtf8#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#encodeToIso#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
                 <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+                <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
                 <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
                 <element signature="n#deleteFillesFromDirectoryTree#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
               </folding>
@@ -78,8 +98,8 @@
       <file leaf-file-name="__baseLayout.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/__baseLayout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="510">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="510">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -134,11 +154,11 @@
         <option value="$PROJECT_DIR$/views/productCombination/configCombination.php" />
         <option value="$PROJECT_DIR$/controllers/ProductCombination.php" />
         <option value="$PROJECT_DIR$/views/searchProducts/preVisualizationProduct.php" />
-        <option value="$PROJECT_DIR$/views/__baseLayout.php" />
         <option value="$PROJECT_DIR$/controllers/SearchProducts.php" />
-        <option value="$PROJECT_DIR$/classes/ProductManager.php" />
-        <option value="$PROJECT_DIR$/helpers/HelperFileFormatting.php" />
         <option value="$PROJECT_DIR$/controllers/ProsessFile.php" />
+        <option value="$PROJECT_DIR$/views/__baseLayout.php" />
+        <option value="$PROJECT_DIR$/helpers/HelperFileFormatting.php" />
+        <option value="$PROJECT_DIR$/classes/ProductManager.php" />
       </list>
     </option>
   </component>
@@ -175,7 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,12 +223,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,15 +290,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -275,6 +323,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60365057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -287,13 +336,12 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32464147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -316,11 +364,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/classes/ProductManager.php</url>
-          <line>129</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/controllers/SearchProducts.php</url>
           <line>32</line>
           <option name="timeStamp" value="65" />
@@ -340,8 +383,13 @@
           <line>55</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/helpers/HelperFileFormatting.php</url>
+          <line>73</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="72" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -383,7 +431,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2839">
           <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="n#__construct#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#createXpaht#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToUtf8#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToIso#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#addValue#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#addUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getImages#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getContentHtml#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getContentFromElements#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#clearPrice#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#showInfo#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#setUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getAhreftLinks#0;n#ProductManager#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -425,7 +487,13 @@
             <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#zipEntireFolder#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToUtf8#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToIso#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#deleteFillesFromDirectoryTree#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
           </folding>
@@ -485,7 +553,13 @@
             <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#zipEntireFolder#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToUtf8#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToIso#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#deleteFillesFromDirectoryTree#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
           </folding>
@@ -552,7 +626,13 @@
             <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#zipEntireFolder#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToUtf8#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToIso#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#deleteFillesFromDirectoryTree#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
           </folding>
@@ -617,7 +697,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#__construct#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#createXpaht#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToUtf8#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToIso#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#addValue#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#addUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getImages#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getContentHtml#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getContentFromElements#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#clearPrice#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#showInfo#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#setUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getAhreftLinks#0;n#ProductManager#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -717,51 +811,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/ProductManager.php">
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="2907">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/__baseLayout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="510">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="510">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/HelperFileFormatting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.961538" vertical-offset="794" max-vertical-offset="1547">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        <state vertical-scroll-proportion="-24.76923" vertical-offset="223" max-vertical-offset="1037">
+          <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
           <folding>
             <element signature="n#createCsv#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#csvToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#unshiftColumDefinition#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#createZip#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#zipEntireFolder#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#getBetween#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToUtf8#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToIso#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#downloadFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#sendClientFile#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
+            <element signature="n#uploadFilesToServer#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#objectsToArray#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
             <element signature="n#deleteFillesFromDirectoryTree#0;n#HelperFileFormatting#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
+    <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.1153846" vertical-offset="45" max-vertical-offset="1836">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/ProsessFile.php">
+    <entry file="file://$PROJECT_DIR$/classes/ProductManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7152875" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
-          <folding />
+        <state vertical-scroll-proportion="0.3085554" vertical-offset="1" max-vertical-offset="833">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="n#__construct#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#createXpaht#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToUtf8#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#encodeToIso#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#addValue#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#addUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getImages#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getContentHtml#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getContentFromElements#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#clearPrice#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#showInfo#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#setUrlBase#0;n#ProductManager#0;n#!!top" expanded="false" />
+            <element signature="n#getAhreftLinks#0;n#ProductManager#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

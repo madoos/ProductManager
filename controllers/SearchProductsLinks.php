@@ -71,7 +71,7 @@ class SearchProductsLinks {
 
     public function getProductsFromLastCategory($urlBase,$url,$className){
         set_time_limit(0);
-        $produtsLinks = ProductManager::GetAhreftLinks( $url,$className);
+        $produtsLinks = ProductManager::getAhreftLinks( $url,$className);
         $produtsLinks = ProductManager::setUrlBase( $urlBase,$produtsLinks);
         $produtsLinks = array_unique($produtsLinks);
         return $produtsLinks;
@@ -84,18 +84,18 @@ class SearchProductsLinks {
         $url = $_POST['urlPage'];
         $className = $_POST['className'];
 
-        $elements = ProductManager::GetAhreftLinks( $url,$xpathQuery);
+        $elements = ProductManager::getAhreftLinks( $url,$xpathQuery);
         $categories  = ProductManager::setUrlBase($urlbase,$elements);
         $subCategories = [];
         foreach ($categories  as $categorie) {
             set_time_limit(0);
-            $subcats =  ProductManager::setUrlBase( $urlbase, ProductManager::GetAhreftLinks( $categorie,$xpathQuery ) );
+            $subcats =  ProductManager::setUrlBase( $urlbase, ProductManager::getAhreftLinks( $categorie,$xpathQuery ) );
             $subCategories = array_merge($subCategories,$subcats);
         }
         $produtsLinks = [];
         foreach ( $subCategories as $subcatLink) {
             set_time_limit(0);
-            $productsFromSubCat =  ProductManager::GetAhreftLinks( $subcatLink,$xpathQuery ) ;
+            $productsFromSubCat =  ProductManager::getAhreftLinks( $subcatLink,$xpathQuery ) ;
             $produtsLinks  = array_merge($produtsLinks,$productsFromSubCat);
         }
 
