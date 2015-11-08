@@ -24,21 +24,16 @@ class ProsessFile {
         $products =  HelperFileFormatting::objectsToArray( ProductModel::getProductsData('products') );
         switch ( $programOptions ) {
             case 1:
-                $pathZipFinale = FILES_PATH.'files.zip';
-                $pathProductCsv = CSV_PATH.'gesioProducts.csv';
-                $pathImgesCsv = CSV_PATH.'gesioAllImgProducts.csv';
-                $pathImages = IMAGES_PATH ;
-                $pathBatches = BATCHES_PATH;
-                $this->createCsvProducts($pathProductCsv,$products,$csvDelimiter);
-                $this->createCsvImages($products,$pathImgesCsv,',');
-                $this->downloadsImages($products,$pathImages);
-                $this->generateBatches($pathImgesCsv,$numItems,$pathBatches);
-                HelperFileFormatting::zipEntireFolder('C:\wamp\www\ProductManager/files',$pathZipFinale);
-                HelperFileFormatting::sendClientFile($pathZipFinale,'zip');
-                HelperFileFormatting::deleteFillesFromDirectoryTree('C:\wamp\www\ProductManager/files');
-                // hay que hacer la vista se descargara el zip de los ficheros esto es de prossesFile contoler linea 33
-                //hay que solucionar el problema de limpeza del directorio despues del  envio de cabeceras
-
+                $zipClient = FILES_PATH.'files.zip';
+                $productCsv = CSV_PATH.'gesioProducts.csv';
+                $imgesCsv = CSV_PATH.'gesioAllImgProducts.csv';
+                $this->createCsvProducts($productCsv,$products,$csvDelimiter);
+                $this->createCsvImages($products,$imgesCsv,',');
+                $this->downloadsImages($products,IMAGES_PATH);
+                $this->generateBatches($imgesCsv,$numItems,BATCHES_PATH);
+                HelperFileFormatting::zipEntireFolder(FILES_PATH,$zipClient);
+                HelperFileFormatting::sendClientFile($zipClient,'zip');
+                HelperFileFormatting::deleteFillesFromDirectoryTree(FILES_PATH);
                 break;
             case 2:
                 //for other things we do not know!

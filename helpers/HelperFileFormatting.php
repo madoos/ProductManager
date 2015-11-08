@@ -92,7 +92,6 @@ class HelperFileFormatting {
         header("Content-Length: " . filesize($filePath));
         header("Content-Disposition: attachment; filename=$fileName");
         readfile($filePath);
-        exit();
     }
 
     public static function  uploadFilesToServer($destinationPaht,$inputName){
