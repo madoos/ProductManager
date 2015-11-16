@@ -36,20 +36,20 @@ class ProductManager{
 		//optimizar esto hay mucho codigi repetido!
 		switch ($attrObj) {
 			case "name":
-				$delimiter = "";
+				$delimiter = " ";
 				$name = $this->getContentHtml($query, $delimiter);
-				$this->name = $name;
+				$this->name = str_replace("'","",$name);
 				break;
 			case "price":
 				$delimiter = "";
 				$price = $this->getContentHtml($query, $delimiter);
 				$price = $this->clearPrice($price);
-				$this->price = $price;
+				$this->price =$price;
 				break;
 			case "description":
 				$delimiter = "";
 				$description = $this->getContentHtml($query, $delimiter);
-				$this->description = $description;
+				$this->description = " "; //$description;
 				break;
 			case "specifications":
 				$delimiter = " -sl- ";
@@ -74,7 +74,7 @@ class ProductManager{
 		$srcs = $this->xpath->query($query);
 		$imgs = $this->getContentFromElements($srcs,$delimiter);
 		$imgs = array_filter( explode(",", $imgs) , function($imgUrl){ return !empty($imgUrl);} );
-		return  $imgs;
+		return  array_reverse($imgs);
 	}
 
 	private function getContentHtml($query,$delimiter=' '){
